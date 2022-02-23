@@ -1,0 +1,24 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>onmouseover and onmouseout</title>
+</head>
+<body>
+    <button onmouseover="myDemo()" onmouseout="myFunc()">hover me to see the effect</button>
+    <p id="result"></p>
+
+    <script>
+        const myDemo=()=>{
+            document.getElementById('result').innerHTML = 'this is a mouse over event'
+        }
+
+        const myFunc=()=> {
+            document.getElementById('result').innerHTML = null
+        }
+    </script>
+    
+</body>
+</html>

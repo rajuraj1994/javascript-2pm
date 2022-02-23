@@ -1,0 +1,44 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>math method</title>
+</head>
+<body>
+    <script>
+        const pi = Math.PI
+        document.write(`${pi.toFixed(2)} <br>`)
+        //sqare root -> sqrt
+        document.write(`${Math.sqrt(25)} <br>`)
+        // power -> pow
+        document.write(`${Math.pow(7,2)} <br>`)
+        //round up -> round()
+        document.write(`${Math.round(6.5)} <br>`)
+        document.write(`${Math.round(6.4)} <br>`)
+        //ceil -> it always round up the value doesnot depend on the decimal value
+        document.write(`${Math.ceil(8.5)} <br>`)
+        document.write(`${Math.ceil(8.4)} <br>`)
+        //floor -> always round down the value to nearest integer no matter what the value after decimal point
+        document.write(`${Math.floor(8.5)} <br>`)
+        document.write(`${Math.floor(8.4)} <br>`)
+        //random number -> it generates value between o and 1 by default
+        document.write(`${Math.random()}<br>`)
+        // to convert random number from decimal to whole number
+        let rand_num= Math.floor(Math.random()*20) // returns between 0 and 19
+        document.write(`${rand_num} <br>`)
+        let test_value= Math.floor(Math.random()*20)+1 // returns between 1 and 20
+        document.write(`${test_value} <br>`)
+
+
+
+
+
+
+
+
+
+    </script>
+</body>
+</html>

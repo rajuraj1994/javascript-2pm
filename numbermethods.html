@@ -1,0 +1,50 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>number methods</title>
+</head>
+<body>
+    <script>
+        const x= 25.45789
+        //toFixed() is used to  print how many numbers to show after decimal points
+        document.write(`${x.toFixed(2)} <br>`)
+        document.write(`${x.toFixed(0)} <br>`)
+        //toPrecision() is used to show how many numbers tobe printed as a whole
+        document.write(`${x.toPrecision(3)} <br>`)
+        
+        //to convert string to number : Number(),parseInt(),parseFloat()
+        //parseFloat() -> 3,4,34.55
+        //parseInt() -> 34
+        const a="2"
+        const b="5"
+        const c= a+b
+        document.write(`the result will be like this ${c} <br>`)
+        const d= Number(a)+Number(b)
+        document.write(`the result will be ${d} <br>`)
+        const e=Number('hello')
+        document.write(`${e} <br>`)
+        const f= typeof(e)
+        document.write(`${f}<br>`)
+        const g=parseInt('25.678 years')
+        document.write(`${g} <br>`)
+        
+
+
+
+
+
+
+
+
+
+       
+
+
+
+
+    </script>
+</body>
+</html>

@@ -1,0 +1,52 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>string methods</title>
+</head>
+<body>
+    <script>
+        const my_text= 'welcome to web pragramming language class to read javascript concept.'
+        document.write(`${my_text} <br>`)
+        //to count the length of string character use length
+        document.write(`${my_text.length} <br>`)
+        //to find the specific string position in a whole string use indexOf()
+        document.write(`${my_text.indexOf('to')} <br>`)
+        // to find the last position of the repeated string use lastIndexOf()
+        document.write(`${my_text.lastIndexOf('to')} <br>`)
+        // to replace the string with another string use replace
+        document.write(`${my_text.replace('language','training')} <br>`)
+        //replaceAll -> to replace all the repeated string
+        // we can use regular expression with g to replace the all the repeating string
+        document.write(`${my_text.replace(/to/g,'too')} <br>`)
+        // with regular expression and i we can make insensitive
+        document.write(`${my_text.replace(/READ/i,'learn')} <br>`)
+        //substring -> certain part of string
+        // slice(start,end) -> (5,10)
+        //substring(start,end) ->(5,10)
+        //substr(start,length) ->(5,10)
+
+        document.write(`${my_text.slice(0,20)}........ <br>`)
+        document.write(`${my_text.substring(10,20)}........ <br>`)
+        document.write(`${my_text.substr(10,20)}........ <br>`)
+        //concat()
+        //charAt()
+        //charCodeAt()
+        //split()
+
+
+
+
+
+
+
+
+        
+
+
+    </script>
+    
+</body>
+</html>

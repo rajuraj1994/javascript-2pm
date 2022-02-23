@@ -1,0 +1,22 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>filter</title>
+</head>
+<body>
+    <script>
+        const numbers = [20, 30, 40, 80, 100, 200]
+        const result = numbers.filter(demo_func)
+
+        function demo_func(input_num){
+          return input_num > 30 && input_num<200
+        }
+
+        document.write(`${result}`)
+    </script>
+    
+</body>
+</html>

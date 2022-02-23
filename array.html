@@ -1,0 +1,45 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>array</title>
+</head>
+<body>
+    <p>array -> a variable contain more than one value</p>
+
+    <script>
+        const fruits=['apple','mango','orange','papaya','grapes']
+        document.write(`${fruits} <br>`)
+        //accessing a single item from an array 
+        document.write(`${fruits[0]} <br>`)
+        //count the length of array
+        document.write(`${fruits.length} <br>`)
+        //to remove last item from an array use pop()
+        fruits.pop()
+        document.write(`${fruits} <br>`)
+        // to add item in the last position of array use push()
+        fruits.push('cherry')
+        document.write(`${fruits} <br>`)
+        // to remove first array element use shift()
+        fruits.shift()
+        document.write(`${fruits} <br>`)
+        //to add array element in first position use unshift()
+        fruits.unshift('pineapple')
+        document.write(`${fruits} <br>`)
+        //splice
+        fruits.splice(2,0,'banana','tomato')
+        // here, 2 means the position where from the element is started to add
+        // 0 -> no any elements is removed from the array
+        document.write(`${fruits} <br>`)
+        // for ascending order use sort()
+        fruits.sort()
+        document.write(`${fruits} <br>`)
+        //reverse
+        fruits.reverse()
+        document.write(`${fruits} <br>`)
+
+    </script>
+</body>
+</html>
